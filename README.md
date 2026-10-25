@@ -115,3 +115,13 @@ systemctl start oeffimonitor-client.service
 ```
 
 to rotate the screen in a raspberry pi see option display\_rotate in /boot/config.txt
+
+# for newer raspios:
+
+create .config/autostart/oeffimonitor.desktop
+
+[Desktop Entry]
+Type=Application
+Name=Oeffimonitor
+Exec=/usr/bin/surf -F -d -K -p https://oeffi.fsinf.at/news/
+Terminal=false

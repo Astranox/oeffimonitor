@@ -2,11 +2,9 @@
 After=systemd-user-sessions.service
 
 [Service]
-User=pi
-ExecStartPre=-/bin/rm -r /dev/shm/chrome-profile /dev/shm/chrome-cache
-ExecStart=/usr/bin/startx -- -nocursor
+ExecStart=/usr/bin/surf -F -d -K https://oeffi.porzellaneum.com/news/
 Restart=always
 RestartSec=30s
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=graphical-session.target

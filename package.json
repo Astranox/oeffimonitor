@@ -21,7 +21,6 @@
 	},
 	"homepage": "https://github.com/metalab/oeffimonitor",
 	"dependencies": {
-		"babel": "^6.23.0",
 		"body-parser": "^1.15.1",
 		"debug": "^2.2.0",
 		"express": "^4.13.4",

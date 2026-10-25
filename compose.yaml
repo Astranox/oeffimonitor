@@ -1,4 +1,6 @@
-version: '2'
+# compose.yaml
+version: '3.9'
+
 services:
   oeffimonitor:
     build: .

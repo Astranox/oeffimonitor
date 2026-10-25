@@ -19,3 +19,4 @@ exec /usr/bin/chromium \
      --disable-notifications \
      --no-pings \
      --noerrdialogs
+exec /usr/bin/surf -d -F -K https://oeffi.domain.tld/
